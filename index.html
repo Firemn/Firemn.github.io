@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hans">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
@@ -21,10 +21,10 @@
   </script>
 
   <meta property="og:type" content="website">
-<meta property="og:title" content="The First Time">
+<meta property="og:title" content="What I have Done">
 <meta property="og:url" content="http://example.com/index.html">
-<meta property="og:site_name" content="The First Time">
-<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="What I have Done">
+<meta property="og:locale">
 <meta property="article:author" content="Firemn">
 <meta name="twitter:card" content="summary">
 
@@ -37,11 +37,11 @@
     sidebar: "",
     isHome : true,
     isPost : false,
-    lang   : 'en'
+    lang   : 'zh-Hans'
   };
 </script>
 
-  <title>The First Time</title>
+  <title>What I have Done</title>
   
 
 
@@ -81,7 +81,7 @@
     <header class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar">
+    <div class="toggle" aria-label="تشغيل شريط التصفح">
       <span class="toggle-line toggle-line-first"></span>
       <span class="toggle-line toggle-line-middle"></span>
       <span class="toggle-line toggle-line-last"></span>
@@ -92,7 +92,7 @@
 
     <a href="/" class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">The First Time</h1>
+      <h1 class="site-title">What I have Done</h1>
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
@@ -115,7 +115,7 @@
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>الأرشيفات</a>
 
   </li>
   </ul>
@@ -144,7 +144,68 @@
       
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/01/10/%E5%BB%BA%E7%AB%99%E7%9A%84%E8%89%B0%E8%BE%9B%E5%8E%86%E7%A8%8B/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Firemn">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="What I have Done">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/01/10/%E5%BB%BA%E7%AB%99%E7%9A%84%E8%89%B0%E8%BE%9B%E5%8E%86%E7%A8%8B/" class="post-title-link" itemprop="url">建站的艰辛历程</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">نُشر في</span>
+              
+
+              <time title="أُنشأ: 2021-01-10 21:38:32 / عُدل: 22:18:25" itemprop="dateCreated datePublished" datetime="2021-01-10T21:38:32+08:00">2021-01-10</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <blockquote>
+<p>个人博客雏形终于搭好了，真的是各种艰辛啊。<br>因为断断续续地（指在游戏间隙）在做这个，中间遇到了很多的问题但是都没有记录下来，现在终于雏形完成了，那我停一下手先<em>尽量</em>复盘一下之前的种种报错以及解决方案。<br>我做博客参考的教程是这篇<a target="_blank" rel="noopener" href="https://www.cnblogs.com/hackhyl/p/9532339.html">https://www.cnblogs.com/hackhyl/p/9532339.html</a><br>没错一开始就是奔着它的简短精简以及时间少去的，结果也因为自己操作过程中各种想当然（自省）犯了各种的错误，最终导致时间被无限拉长。<br>因为不知道域名这东西具体是怎么弄的，所以教程里一开始说了一定要和所属名相同那里我就没当回事，最后果然吃亏了。如果不按照所属名相同的话<a target="_blank" rel="noopener" href="https://yourname.github.io/">https://yourname.github.io</a><br>这个就根本不能用。【存疑，因为我一开始设置仓库名的时候甚至连.github.io都没有加，所以也可能是这个的原因，但是后来也因为master和main的分支名的原因无法进行，可是问了同学他说他旧的仓库都是master也能用，所以也可能是其他的原因？以后补充】<br>到后面装hexo和git的时候也差点走进死胡同，索性及时自我止损（不是）。【但是真的花（浪费）了很多时间】<br>到后面更改配置，因为这个教程里没有写，虽然在别的教程里看到了要写branch但是我图懒了没加，就出了后面的master和main的错，直接导致后面倒来倒去，中间域名还失效了最后又好了的玄学事件（。）。<br>写文章是最简单的了因为根本什么都没写。（……）<br>后面测试的时候hexo s之后访问localhost:4000的时候显示无法访问，后来又能访问但是全是代码。<br>对不起这两个问题是怎么解决的完全忘记了orz。一开始无法访问的时候是换了端口号，后来因为整个项目重新做了，所以端口号又回去了，但是莫名其妙又可以访问的，中间改了什么已经全都忘记了orz。全是代码的那个是因为没有改_config.yml文件。<br>最后到了上传github，这部分真的很迷，很玄学。感觉没做什么就不行了，然后瞎改改（也好像什么都没改？）又自己好了。<br>总之差不多是这样的过程吧，是我太菜了orz。<br>后面还要加一些评论区，访问次数之类的功能，先记着，我怕我忘了。</p>
+</blockquote>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-Hans">
     <link itemprop="mainEntityOfPage" href="http://example.com/2021/01/10/Try/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -154,7 +215,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="The First Time">
+      <meta itemprop="name" content="What I have Done">
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
@@ -167,10 +228,10 @@
               <span class="post-meta-item-icon">
                 <i class="far fa-calendar"></i>
               </span>
-              <span class="post-meta-item-text">Posted on</span>
+              <span class="post-meta-item-text">نُشر في</span>
               
 
-              <time title="Created: 2021-01-10 18:57:09 / Modified: 18:58:12" itemprop="dateCreated datePublished" datetime="2021-01-10T18:57:09+08:00">2021-01-10</time>
+              <time title="أُنشأ: 2021-01-10 18:57:09 / عُدل: 18:58:12" itemprop="dateCreated datePublished" datetime="2021-01-10T18:57:09+08:00">2021-01-10</time>
             </span>
 
           
@@ -205,7 +266,7 @@
       
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-Hans">
     <link itemprop="mainEntityOfPage" href="http://example.com/2021/01/10/hello-world/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -215,7 +276,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="The First Time">
+      <meta itemprop="name" content="What I have Done">
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
@@ -228,9 +289,9 @@
               <span class="post-meta-item-icon">
                 <i class="far fa-calendar"></i>
               </span>
-              <span class="post-meta-item-text">Posted on</span>
+              <span class="post-meta-item-text">نُشر في</span>
 
-              <time title="Created: 2021-01-10 18:52:58" itemprop="dateCreated datePublished" datetime="2021-01-10T18:52:58+08:00">2021-01-10</time>
+              <time title="أُنشأ: 2021-01-10 18:52:58" itemprop="dateCreated datePublished" datetime="2021-01-10T18:52:58+08:00">2021-01-10</time>
             </span>
 
           
@@ -312,10 +373,10 @@
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
-          Table of Contents
+          المحتويات
         </li>
         <li class="sidebar-nav-overview">
-          Overview
+          عام
         </li>
       </ul>
 
@@ -334,8 +395,8 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
-          <span class="site-state-item-name">posts</span>
+          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-name">المقالات</span>
         </a>
       </div>
   </nav>
@@ -368,7 +429,7 @@
   </span>
   <span class="author" itemprop="copyrightHolder">Firemn</span>
 </div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
+  <div class="powered-by">تطبيق الموقع <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
   </div>
 
         
